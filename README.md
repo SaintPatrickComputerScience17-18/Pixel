@@ -27,13 +27,13 @@ This function instead of adding a constant value to an individual r,g,b-value, m
 This function **will return** a pixel object which represents the complement color to your current pixel.  The complement of an r,g,b-value is the value which makes it add up to 255.  For example...
 
   -  mypixel
-    +  red = 50
-    +  green = 100
-    +  blue = 200
+      +  red = 50
+      +  green = 100
+      +  blue = 200
   -  complement pixel should be
-    +  red = 205
-    +  green = 155
-    +  blue = 55
+      +  red = 205
+      +  green = 155
+      +  blue = 55
 
 ## Gray scale
 
