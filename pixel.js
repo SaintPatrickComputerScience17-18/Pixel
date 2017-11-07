@@ -59,9 +59,9 @@ function main(){
     console.log("------Reduced brightness by 40%------");
     report(rectangle);
 
-    rectangle.complement();
+    
     console.log("------Complement to the previous color------");
-    report(rectangle);
+    report(rectangle.complement());
 
     rectangle.grayScale();
     console.log("------Averages the 3 values from the brighten example------");
